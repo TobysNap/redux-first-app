@@ -1,8 +1,9 @@
 import { configureStore } from '@reduxjs/toolkit';
-import { postsSlice } from './slices';
+import { pointsSlice, usersSlice } from './slices';
 
 export default configureStore({
   reducer: {
-    posts: postsSlice.reducer 
+    users: usersSlice.reducer,
+    points: pointsSlice.reducer,
   }
 });
