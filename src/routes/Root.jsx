@@ -6,12 +6,12 @@ const Root = () => {
 		<>
 			<header>
 				<nav>
-					<ul class="navbar">
+					<ul>
 						<li>
 							<Link to="/create">Escribir un post</Link>
 						</li>
 						<li>
-							<Link to="/posts">Ver todos los posts</Link>
+							<Link to="/candidates">Ver usuarios</Link>
 						</li>
 					</ul>
 				</nav>
