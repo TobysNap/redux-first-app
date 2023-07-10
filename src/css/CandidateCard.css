@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+article {
+    background: #d3d3d3;
+    display: flex;
+}
+
+.details {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
